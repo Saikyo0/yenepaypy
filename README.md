@@ -1,7 +1,7 @@
 
 # YenePay Python API (Unofficial)
 
-A simple and easily integrable library for your python code
+A simple and easily integrable yenepay library for your python code
 
 ![](https://yenepay.com/images/logo.png "")
 
