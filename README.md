@@ -72,7 +72,7 @@ from yenepaypy.main import Client
 
 client = Client(merchant_id = '...')
 authtoken = "..."
-pem_file="..." 
+pem_file="C:/.../..." 
 
 result = client.send_to(
         pemfile = pem_file,
