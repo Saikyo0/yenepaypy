@@ -13,7 +13,7 @@ Initiates a yenepay client, required for any of the other services of this libra
 https://community.yenepay.com/docs/getting-started/get-your-seller-merchant-code/
 ####
 ```
-from yenepaypy import Client
+from yenepaypy.main import Client
 
 client = Client(merchant_id = '...')
 
@@ -33,7 +33,7 @@ This is the easiest and quickest way to accept a payment through YenePay. By gen
 https://community.yenepay.com/docs/integration-guide/using-the-generate-payment-link-option-on-yenepay/
 
 ```
-from yenepaypy import Client
+from yenepaypy.main import Client
 
 client.payment_link(
 	item_name = '...',
@@ -66,7 +66,7 @@ sdk core example:
 https://github.com/YenePay/yenepay.sdk.core.client
 ####
 ```
-from yenepaypy import Client
+from yenepaypy.main import Client
 
 client = Client(merchant_id = '...')
 authtoken = "..."
