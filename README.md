@@ -7,7 +7,9 @@ A simple and easily integrable yenepay library for your python code
 
 help: https://community.yenepay.com/
 ## API Reference
-
+```
+pip install yenepaypy
+```
 ### Client
 Initiates a yenepay client, required for any of the other services of this library
 https://community.yenepay.com/docs/getting-started/get-your-seller-merchant-code/
