@@ -37,6 +37,7 @@ https://community.yenepay.com/docs/integration-guide/using-the-generate-payment-
 ```
 from yenepaypy.main import Client
 
+client = Client(merchant_id = '...')
 client.payment_link(
 	item_name = '...',
 	unit_price = '...',
@@ -87,7 +88,7 @@ result = client.send_to(
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `pemfile `      | `string` | **Required**. signature key file location  |
+| `pemfile `      | `string` | **Required**. signature key file location in disk |
 | `authtoken`      | `string` | **Required**. Authoriztion Token string |
 | `amount`      | `string` | **Required**. amount of money to be sent |
 | `recieverid`      | `string` | **Required**. customer code of the reciever |
