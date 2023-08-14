@@ -93,3 +93,9 @@ result = client.send_to(
 | `amount`      | `string` | **Required**. amount of money to be sent |
 | `recieverid`      | `string` | **Required**. customer code of the reciever |
 | `payment_text`      | `string` | **Optional**. text to be attached with the payment |
+
+
+## Contributing 
+If you encounter a bug open an issue on the GitHub repository. Pull requests are also welcome! 
+
+<a href=https://github.com/saikyo0>saikyo0</a>
